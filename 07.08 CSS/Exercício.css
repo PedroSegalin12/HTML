@@ -1,0 +1,58 @@
+body {
+    color: black;
+    font-family: Arial;
+    text-align: center;
+
+}
+
+
+h2{
+    color:black;
+    font-size:32px;
+}
+.teste {
+    color: green;
+    font-size: 100px;
+}
+
+
+#inter{
+    color:red;
+    font-size: 25px;
+}
+#gremio{
+    color:blue;
+    font-size: 25px;
+}
+
+
+#oi {
+    color: red;
+    font-size: 24px;
+}
+
+i{
+    color: blue;
+    font-size: large;
+}
+
+* {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+table {
+    border: solid 1px black;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid 1px black;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+span{
+    font-size: 24px;
+}
