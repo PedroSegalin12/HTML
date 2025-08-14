@@ -5,6 +5,11 @@ body {
 
 }
 
+h1{
+    color:red;
+    font-size:50px;
+    font-family: serif;
+}
 
 h2{
     color:black;
@@ -41,11 +46,8 @@ i{
     font-size: 15px;
 }
 
-table {
-    border: solid 1px black;
-    margin: 0 auto;
-    border-collapse: collapse;
-}
+table { border: 1px solid black; margin: 0 auto; border-collapse: collapse; }
+
 
 th, td {
     border: solid 1px black;

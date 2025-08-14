@@ -1,0 +1,111 @@
+body {
+    color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+
+.container {
+    display: flex;
+    justify-content: space-around; /* Espaço entre as divs */
+    align-items: center;
+    background-color: #1c5d78; /* Azul do fundo */
+    padding: 20px;
+}
+
+.box {
+    background-color: #166534; /* Verde */
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+.box img {
+    max-width: 100px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}}
+.caixa {
+    width: 150px;
+    height: 150px;
+    padding: 0px;
+    border: 10px solid rgb(80, 75, 75);
+    margin: 0 auto;
+}   
+.linha {
+    width: 1500px;
+    border: 1px solid black;
+}
+
+h1 {
+    color: red;
+    font-size: 50px;
+    font-family: serif;
+}
+
+h2 {
+    color: black;
+    font-size: 32px;
+}
+
+.teste {
+    color: green;
+    font-size: 100px;
+
+}
+
+
+#inter {
+    color: red;
+    font-size: 25px;
+}
+
+#gremio {
+    color: blue;
+    font-size: 25px;
+}
+
+
+#boanoite {
+    color: darkgreen;
+    font-size: 24px;
+    background-color: yellowgreen;
+}
+
+i {
+    color: blue;
+    font-size: large;
+}
+
+* {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+table {
+    border: 1px solid black;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+
+th,
+td {
+    border: solid 1px black;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+span {
+    font-size: 24px;
+}
