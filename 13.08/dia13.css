@@ -4,22 +4,22 @@ body {
     text-align: center;
 
 
-.container {
+.container-pai {
     display: flex;
-    justify-content: space-around; /* Espaço entre as divs */
+    justify-content: space-around;
     align-items: center;
-    background-color: #1c5d78; /* Azul do fundo */
+    background-color: rgb(165, 97, 97);
     padding: 20px;
 }
 
 .box {
-    background-color: #166534; /* Verde */
-    padding: 20px;
+    background-color: red;
+    padding: 2px;
     border: 2px solid #000;
 }
 
-.box img {
-    max-width: 100px;
+.box img { 
+    max-width: 200px;
 }
 
 .menu ul {
@@ -28,6 +28,7 @@ body {
     margin: 0;
     display: flex;
     gap: 15px;
+    align-items: right;
 }
 
 .menu a {

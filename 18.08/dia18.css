@@ -1,0 +1,50 @@
+body {
+            color: black;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .container-pai {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            background-color: white;
+            border: solid black;
+            padding: 20px;
+        }
+
+        .box {
+            border: 2px solid black;
+        }
+
+        .box img {
+            max-width: 200px;
+        }
+
+
+        .lado-direito {
+            display: flex;
+            flex-direction: column;
+            gap: 100px;
+
+            padding: 10px;
+        }
+
+        .menu ul,
+        .submenu ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 15px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        menu3{
+            
+            position: fixed;
+        }
